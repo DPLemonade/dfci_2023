@@ -1,0 +1,3 @@
+26-MAR-2007
+ Genes which encode human monoclonal Fab antibody which neutralize influenza virus A subtype H3N2. 
+ Nishizono,A., Shibuya,T. and Yamashiro,S.      Patent: JP 2006254777-A 1 28-SEP-2006;

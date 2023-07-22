@@ -1,0 +1,49 @@
+LOCUS       DD411205                 696 bp    DNA     linear   PAT 26-MAR-2007
+DEFINITION  Genes which encode human monoclonal Fab antibody which neutralize
+            influenza virus A subtype H3N2.
+ACCESSION   DD411205
+VERSION     DD411205.1
+KEYWORDS    JP 2006254777-A/1.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 696)
+  AUTHORS   Nishizono,A., Shibuya,T. and Yamashiro,S.
+  TITLE     Genes which encode human monoclonal Fab antibody which neutralize
+            influenza virus A subtype H3N2
+  JOURNAL   Patent: JP 2006254777-A 1 28-SEP-2006;
+            NATIONAL UNIVERSITY CORPORATION OITA UNIVERSITY
+COMMENT     OS   human
+            PN   JP 2006254777-A/1
+            PD   28-SEP-2006
+            PF   17-MAR-2005 JP 2005076351
+            PI   akira nishizono,tadamasa shibuya,satoshi yamashiro CC   This
+            description about <220> can't be interpreted CC   <220> gene
+            encoding the heavy chain of human Fab antibody CC   which
+            neutralizes
+            CC   influenza virus A subtype H3N2 strains.
+            CC   <221> CDS
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1..696
+                     /organism="Homo sapiens"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:9606"
+ORIGIN      
+        1 cagtctgggg gaggcgtggt ccagcctggg gggtccctga gactctcctg cgcagcgtct
+       61 ggtttcatgt tcgatgactt tggcatgcac tgggtccgcc aggctccagg caaggggctg
+      121 gaatgggtgg cagtaatatg ggctgatgga tttgagaaaa actatgaaga ctccgtgaag
+      181 ggccgattca ccatctccag agacaattcc aagaacacac tatatctcca aatggaccgc
+      241 ctgcgagccg aggacacggc tgtttacttc tgtgcgagag atggggactc gataacgttt
+      301 gcgagacttc tcgacccgcc cttctacaag ggtatggacg tctggggcca agggagcatg
+      361 gtcaccgtct cctcagcctc caccaagggc ccatcggtct tccccctggc accctcctcc
+      421 aagagcacct ctgggggcac agcggccctg ggctgcctgg tcaaggacta cttccccgaa
+      481 ccggtgacgg tgtcgtggaa ctcaggcgcc ctgaccagcg gcgtgcacac cttcccggct
+      541 gtcctacagt cctcaggact ctactccctc agcagcgtgg tgaccgtgcc ctccagcagc
+      601 ttgggcaccc agacctacat ctgcaacgtg aatcacaagc ccagcaacac caaggtggac
+      661 aagaaagttg agcccaaatc ttgtgacaaa actagc
+//
+
+

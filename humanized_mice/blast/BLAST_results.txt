@@ -1,0 +1,44 @@
+[charles@marasco-lab blast]$ cat A3_results.txt | grep 'Sequences producing significant alignments:' | wc -l
+90238 (5.28%)
+[charles@marasco-lab blast]$ cat A3_results.txt | grep 'No hits found' | wc -l
+1618947
+[charles@marasco-lab blast]$ cat A3_M1_collapse-unique.fasta | grep '>' | wc -l
+1709185
+[charles@marasco-lab blast]$ cat B3_results.txt | grep 'Sequences producing significant alignments:' | wc -l
+107671 (4.24%)
+[charles@marasco-lab blast]$ cat B3_results.txt | grep 'No hits found' | wc -l
+2432926
+[charles@marasco-lab blast]$ cat B3_M1_collapse-unique.fasta | grep '>' | wc -l
+2540597
+[charles@marasco-lab blast]$ cat C3_results.txt | grep 'Sequences producing significant alignments:' | wc -l
+145760 (5.65%)
+[charles@marasco-lab blast]$ cat C3_results.txt | grep 'No hits found' | wc -l
+2432097
+[charles@marasco-lab blast]$ cat C3_M1_collapse-unique.fasta | grep '>' | wc -l
+2577857
+
+A3
+
+Sequences producing significant alignments: 90238 (5.28%)
+Number of hits: 465479
+Number of >=90% hits: 64539
+No hits found: 1618947
+Total sequences: 1709185
+
+
+B3
+
+Sequences producing significant alignments: 107671 (4.24%)
+Number of hits: 531705
+Number of >=90% hits: 91104
+No hits found: 2432926
+Total sequences: 2540597
+
+
+C3
+
+Sequences producing significant alignments: 145760 (5.65%)
+Number of hits: 756185
+Number of >=90% hits: 190157
+No hits found: 2432097
+Total sequences: 2577857

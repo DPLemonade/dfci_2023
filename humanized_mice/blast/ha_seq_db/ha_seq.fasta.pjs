@@ -1,0 +1,21 @@
+{
+  "version": "1.2",
+  "dbname": "ha_seq.fasta",
+  "dbtype": "Protein",
+  "db-version": 4,
+  "description": "ha_seq_db",
+  "number-of-letters": 89952,
+  "number-of-sequences": 692,
+  "last-updated": "2023-07-17T12:38:00",
+  "number-of-volumes": 1,
+  "bytes-total": 136334,
+  "bytes-to-cache": 96253,
+  "files": [
+    "ha_seq.fasta.phr",
+    "ha_seq.fasta.pin",
+    "ha_seq.fasta.pog",
+    "ha_seq.fasta.psd",
+    "ha_seq.fasta.psi",
+    "ha_seq.fasta.psq"
+  ]
+}
