@@ -92,4 +92,4 @@ for id in id_file:
 
 dict = {'Date': date, 'Description': description, 'Authors': authors, 'Journal': journal, 'PubMed ID': pubmed, 'Protein ID': seq_ids, 'Sequence': sequences}
 df = pd.DataFrame(dict)
-df.to_excel('Protein HA Database Updated.xlsx')
+df.to_excel('Protein HA Database (only NIH data).xlsx')

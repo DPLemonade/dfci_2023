@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel('Nucleotide HA Database Updated.xlsx')
+df = pd.read_excel('Nucleotide HA Database (only NIH data).xlsx')
 # Remove first column (Unnamed:0)
 df.drop(columns=df.columns[0], axis=1, inplace=True)
 
@@ -18,4 +18,4 @@ data = data.reset_index(drop=True)
 
 result = pd.concat([df, data], axis=1)
 result['Nucleotide ID'] = result['Nucleotide ID'].astype(str)
-result.to_excel('Nucleotide HA Database Combined.xlsx')
+result.to_excel('Nucleotide HA Database (NIH+IMGT).xlsx')

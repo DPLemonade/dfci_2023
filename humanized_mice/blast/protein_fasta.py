@@ -84,7 +84,7 @@ cleaned_df = pd.DataFrame({'Strain': strain_data_no_duplicates, \
                            'How mAb found': how_mab_found_data_no_duplicates, \
                             'Sequence': seq_data_no_duplicates})
 
-cleaned_df.to_excel('cleaned_ha_dataset.xlsx')
+cleaned_df.to_excel('cleaned_ha_database.xlsx')
 
 for i in range(0, len(seq_data_no_duplicates)):
     print('>', i + 1, file=output_file)

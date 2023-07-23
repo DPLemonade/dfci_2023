@@ -30,7 +30,7 @@ count = soup.find('Count').text
 
 retmax = 500
 retstart = 0
-cnt = 1
+
 while retstart < int(count):
     print(retstart)
     time.sleep(1)
@@ -39,12 +39,8 @@ while retstart < int(count):
     fetch_url += f'&retmax={retmax}&rettype=fasta&retmode=text'
     page = requests.get(fetch_url)
 
-    seq_filename = f'prot_seq_{cnt}.fasta'
-    seq_file = open(seq_filename, 'w')
-
     print(page.text, file=seq_file)
     retstart += retmax
-    cnt += 1
 
 id_file.close()
 seq_file.close()

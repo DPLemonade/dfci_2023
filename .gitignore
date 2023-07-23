@@ -1,1 +1,10 @@
 humanized_mice/chatgpt_api/openai-quickstart-python/
+humanized_mice/unequal_length
+humanized_mice/blast/A3/A3_M1_collapse-unique.fasta
+humanized_mice/blast/A3/A3_results.txt
+humanized_mice/blast/B3/B3_M1_collapse-unique.fasta
+humanized_mice/blast/B3/B3_results.txt
+humanized_mice/blast/C3/C3_M1_collapse-unique.fasta
+humanized_mice/blast/C3/C3_results.txt
+humanized_mice/blast/taxdb*
+~$*

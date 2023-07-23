@@ -57,13 +57,6 @@ while retstart < int(count):
     lines = input_file.readlines()
 
     try:
-        if 'targeted locus study' in lines[1]:
-            print(lines[1])
-            continue
-    except:
-        print('')
-
-    try:
         date.append(lines[0])
     except:
         date.append('NA')
@@ -100,4 +93,4 @@ for id in id_file:
 
 dict = {'Date': date, 'Description': description, 'Authors': authors, 'Journal': journal, 'PubMed ID': pubmed, 'Nucleotide ID': seq_ids, 'Sequence': sequences}
 df = pd.DataFrame(dict)
-df.to_excel('Nucleotide HA Database Updated.xlsx')
+df.to_excel('Nucleotide HA Database (only NIH data).xlsx')
